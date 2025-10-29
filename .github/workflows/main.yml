@@ -12,6 +12,6 @@ jobs:
        run: echo "the name of your branch is ${{github.ref}}"
      - name: checkout repo code actions
        uses: actions/checkout@v4
-       run: echo "clonning the ${{github.repository}} repository"
+     - run: echo "clonning the ${{github.repository}} repository"
      - name: list files in the repo 
        run: is ${{github.workspace}}
