@@ -14,4 +14,4 @@ jobs:
        uses: actions/checkout@v4
      - run: echo "clonning the ${{github.repository}} repository"
      - name: list files in the repo 
-       run: is ${{github.workspace}}
+       run: ls ${{github.workspace}}
